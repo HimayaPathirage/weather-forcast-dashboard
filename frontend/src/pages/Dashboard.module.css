@@ -1,6 +1,4 @@
-.dashboardContainer {
-  @apply relative z-10 flex items-center justify-center min-h-screen;
-}
+
 
 .dashboardForm {
   @apply bg-white bg-opacity-90 p-6 rounded-lg shadow-lg w-full max-w-md;
