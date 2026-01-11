@@ -58,6 +58,7 @@ function Dashboard() {
             className={styles.dashboardInput}
             required
           />
+          
           <div className="flex flex-col gap-2">
             <input
                 type="date"
@@ -66,7 +67,7 @@ function Dashboard() {
                 className={styles.dashboardInput}
                 required
               />
-              <button className="bg-blue-500 text-white px-4 py-1 rounded">
+              <button className={styles.submitButton}>
                 Submit
               </button>
           </div>
